@@ -25,6 +25,11 @@ h1, h2, h3 {
     color: #252525;
 }
 
+hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -125,6 +130,34 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#reasons{
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#reasons p{
+    padding: 0 20px;
+}
+#reasons > h2{
+    margin-bottom: 20px;
+    font-size: 280%;
+    text-align: center;
+}
+#reasons > section{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#benefits-physical > div{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits-mental > div{
+    margin-bottom: 20px;
+    line-height: 20px;
 }
 
 /* Media query: tablets and larger (768px and up) */
