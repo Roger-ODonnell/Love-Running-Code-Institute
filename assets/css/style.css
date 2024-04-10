@@ -139,3 +139,10 @@ main{
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+@media screen and (min-width: 320px) {
+    main{
+        /*Push main content down*/
+        margin-top: 77px;
+    }
+}
